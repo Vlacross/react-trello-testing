@@ -4,10 +4,10 @@ cache:
   directories:
   - node_modules
 env: "-CI=true"
-deploy:
-  provider: heroku
-  api_key:
-    secure: bs734UVbwxgJnQolCXbedv7h+LBgEnmU46ov2veuoREKLxXXwunmym7J50wtPZssOpcAn16fnKxvspKhM1mS8tnyEo3J+/TJSXET6zsZYA6WvjwfeaFBdiLH78w0DQaDwN7Smr9qVqyHz7pju6KqAIRZeFLFGCIdE+8rvZskmTP1FMQO9CLexztF1OQwD1Ui/N0KMgHojw0DzpYrvwMZy2CmjLMc+LUIA9crJ4V3pxHvRq/mmPRv78fk7RgrAyhmysT9qKfPxdlRTGNxisEMqn/pHyX7/2Ic6yWaR52OUELHvoIGkgDLuQ2eM2zjITdnvu+IfQXwmlxMoSzqTdgNyCVlhfIilBiThdAa8JmpbVsH/o1JyPKQ+S1yw62r/L12SlE4rlsFIR90zXT4voczvAh60WpQk4xYwCtbs7+TtSqxeJpRtWP7XANNOTRZbNWi59Kn4AysnRBWvc6bHFqBA43ZA3Q/Zhzq6ej0As7SXOq0yxIv8DTVdGHh/xUXRbN/aw7Hu3kANcC23TT2DHwKb7Gl7AezzVTPbl2Cm7FfLQ5h/w1468uuLLAw+U0x7A3CVy7kb+9dO0vKDOkCWryWY7cvgzXHeBdGiEnhDS4EKIg1KhwwehUc+/CLQth2JMIJROSBwvtc2yVlCcYbc53Ahbw7+Srb0CRCES7vlQM5cXU=
-  app: aqueous-fortress-32099
-  on:
-    repo: Vlacross/react-trello-testing
+# deploy:
+#   provider: heroku
+#   api_key:
+#     secure: bs734UVbwxgJnQolCXbedv7h+LBgEnmU46ov2veuoREKLxXXwunmym7J50wtPZssOpcAn16fnKxvspKhM1mS8tnyEo3J+/TJSXET6zsZYA6WvjwfeaFBdiLH78w0DQaDwN7Smr9qVqyHz7pju6KqAIRZeFLFGCIdE+8rvZskmTP1FMQO9CLexztF1OQwD1Ui/N0KMgHojw0DzpYrvwMZy2CmjLMc+LUIA9crJ4V3pxHvRq/mmPRv78fk7RgrAyhmysT9qKfPxdlRTGNxisEMqn/pHyX7/2Ic6yWaR52OUELHvoIGkgDLuQ2eM2zjITdnvu+IfQXwmlxMoSzqTdgNyCVlhfIilBiThdAa8JmpbVsH/o1JyPKQ+S1yw62r/L12SlE4rlsFIR90zXT4voczvAh60WpQk4xYwCtbs7+TtSqxeJpRtWP7XANNOTRZbNWi59Kn4AysnRBWvc6bHFqBA43ZA3Q/Zhzq6ej0As7SXOq0yxIv8DTVdGHh/xUXRbN/aw7Hu3kANcC23TT2DHwKb7Gl7AezzVTPbl2Cm7FfLQ5h/w1468uuLLAw+U0x7A3CVy7kb+9dO0vKDOkCWryWY7cvgzXHeBdGiEnhDS4EKIg1KhwwehUc+/CLQth2JMIJROSBwvtc2yVlCcYbc53Ahbw7+Srb0CRCES7vlQM5cXU=
+#   app: aqueous-fortress-32099
+#   on:
+#     repo: Vlacross/react-trello-testing
